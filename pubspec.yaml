@@ -1,0 +1,27 @@
+name: auto_scroll_to_error
+version: 1.0.1
+
+description: >
+  A Flutter widget that improves form UX by automatically scrolling a scrollable form to the first invalid field when validation fails.
+
+homepage: https://github.com/Abel9436/flutter_auto_scroll_to_error.git
+repository: https://github.com/Abel9436/flutter_auto_scroll_to_error.git
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Example app
+example:
+  path: example
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
